@@ -1,0 +1,196 @@
+{
+  // Startup
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+
+  // General settings
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": true,
+  "editor.insertSpaces": true,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "editor.mouseWheelZoom": true,
+  "editor.rulers": [120, 80],
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+  "editor.trimAutoWhitespace": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.shell.linux": "/usr/bin/env",
+  "terminal.integrated.shellArgs.linux": [
+    "flatpak-spawn",
+    "--host",
+    "--env=TERM=xterm-256color",
+    "zsh"
+  ],
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.insertFinalNewline": false,
+  "git.enableSmartCommit": true,
+  "breadcrumbs.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // -----------------------------
+  // Plugins
+  // -----------------------------
+
+  // ESLint configuration
+  "eslint.packageManager": "yarn",
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // Prettier
+  "prettier.trailingComma": "all",
+  "prettier.arrowParens": "avoid",
+  "prettier.quoteProps": "consistent",
+  "prettier.singleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx", // Defines auto closing tags in JSX
+    "typescript": "tsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  // Material Icon Theme
+  "material-icon-theme.folders.associations": {
+    "_shared": "shared",
+    "contexts": "components",
+    "domain": "class",
+    "dtos": "typescript",
+    "entities": "class",
+    "eslint-config": "tools",
+    "fakes": "mock",
+    "grpc": "pipe",
+    "http": "container",
+    "implementations": "core",
+    "infra": "app",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "migrations": "tools",
+    "modules": "components",
+    "protos": "pipe",
+    "providers": "include",
+    "repositories": "mappings",
+    "schemas": "class",
+    "associations": "class",
+    "subscribers": "messages",
+    "typeorm": "database",
+    "useCases": "controller",
+    "resolvers": "controller",
+    "webscokets": "pipe",
+    "main": "app",
+    "dashboard": "tools",
+    "store": "database",
+    "interfaces": "typescript",
+    "types": "typescript",
+    "redux": "redux-actions",
+    "application": "app",
+    "applications": "app",
+    "args": "graphql",
+    "inputs": "graphql"
+  },
+  "material-icon-theme.files.associations": {
+    "*.controller.ts": "nest-controller",
+    "*.controller.js": "nest-controller",
+    "*.module.ts": "nest-module",
+    "*.module.js": "nest-module",
+    "*.service.ts": "nest-service",
+    "*.service.js": "nest-service",
+    "*.middleware.ts": "nest-middleware",
+    "*.middleware.js": "nest-middleware",
+    "*.filter.ts": "nest-filter",
+    "*.filter.js": "nest-filter",
+    "*.pipe.ts": "nest-pipe",
+    "*.pipe.js": "nest-pipe",
+    "*.gateway.ts": "nest-gateway",
+    "*.gateway.js": "nest-gateway",
+    "*.decorator.ts": "nest-decorator",
+    "*.decorator.js": "nest-decorator",
+    "*.guard.ts": "nest-guard",
+    "*.guard.js": "nest-guard",
+    "*.resolver.ts": "graphql",
+    "*.resolver.js": "graphql",
+    "*.input.ts": "graphql",
+    "*.input.js": "graphql",
+    "*.schema.ts": "graphql",
+    "*.schema.js": "graphql",
+    "*.args.ts": "graphql",
+    "*.args.js": "graphql"
+  },
+
+  // Colorize Extension settings
+  "colorize.languages": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "html",
+    "css",
+    "sass",
+    "less",
+    "scss",
+    "postcss",
+    "sss",
+    "stylus",
+    "svg",
+    "xml"
+  ],
+
+  // Java Extensions
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true
+  },
+
+  // JavaScript Extensions
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  // "javascript.inlayHints.variableTypes.enabled": true,
+  // "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "javascript.inlayHints.parameterTypes.enabled": true,
+  // "javascript.inlayHints.parameterNames.enabled": "all",
+  // "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "javascript.inlayHints.enumMemberValues.enabled": true,
+
+  // TypeScript Extensions
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always"
+  // "typescript.inlayHints.enumMemberValues.enabled": true,
+  // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "typescript.inlayHints.parameterNames.enabled": "all",
+  // "typescript.inlayHints.parameterTypes.enabled": true,
+  // "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "typescript.inlayHints.variableTypes.enabled": true
+}
