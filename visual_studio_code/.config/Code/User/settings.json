@@ -1,7 +1,7 @@
 {
   // Startup
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Omni",
+  "workbench.colorTheme": "Nordico",
   "workbench.iconTheme": "material-icon-theme",
 
   // General settings
@@ -20,17 +20,12 @@
   "editor.trimAutoWhitespace": false,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.tabs.location": "left",
-  "terminal.integrated.shell.linux": "/usr/bin/env",
-  "terminal.integrated.shellArgs.linux": [
-    "flatpak-spawn",
-    "--host",
-    "--env=TERM=xterm-256color",
-    "zsh"
-  ],
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "files.insertFinalNewline": false,
   "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "files.autoSave": "afterDelay",
   "breadcrumbs.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
 
@@ -186,7 +181,8 @@
 
   // TypeScript Extensions
   "typescript.preferences.quoteStyle": "single",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.untrustedFiles": "newWindow"
   // "typescript.inlayHints.enumMemberValues.enabled": true,
   // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   // "typescript.inlayHints.parameterNames.enabled": "all",
