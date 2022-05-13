@@ -182,11 +182,23 @@
   // TypeScript Extensions
   "typescript.preferences.quoteStyle": "single",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "security.workspace.trust.untrustedFiles": "newWindow"
+  "security.workspace.trust.untrustedFiles": "newWindow",
   // "typescript.inlayHints.enumMemberValues.enabled": true,
   // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   // "typescript.inlayHints.parameterNames.enabled": "all",
   // "typescript.inlayHints.parameterTypes.enabled": true,
   // "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   // "typescript.inlayHints.variableTypes.enabled": true
+
+  // Flutter/Dart Extensions
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  }
 }
