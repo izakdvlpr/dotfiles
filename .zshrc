@@ -172,4 +172,16 @@ export NVM_DIR="$HOME/.nvm"
 # Spicetify
 # ----------------------------------------
 
-export PATH=$PATH:/home/izakdvlpr/.spicetify
+export PATH="$PATH:$HOME/.spicetify"
+
+# ----------------------------------------
+# Android Studio
+# ----------------------------------------
+
+export PATH="$PATH:$HOME/android-studio/bin"
+
+# ----------------------------------------
+# Flutter
+# ----------------------------------------
+
+export PATH="$PATH:$HOME/flutter/bin"
