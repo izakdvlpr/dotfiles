@@ -148,6 +148,9 @@ SPACESHIP_CHAR_SUFFIX=" "
 alias vim="nvim"
 alias py="python3.10"
 alias edge="flatpak run com.microsoft.Edge"
+alias pipes="$HOME/.local/share/pipes/pipes.sh" 
+alias colors="$HOME/.local/share/colors.sh"
+alias pacman="$HOME/.local/share/pacman.sh"
 
 # ----------------------------------------
 # Java
