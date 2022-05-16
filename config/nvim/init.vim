@@ -13,5 +13,5 @@ set mouse=a
 
 colorscheme nord
 
-nnoremap <C-b> :NERDTreeToggle <cr>
-nnoremap <C-t> :terminal <cr>
+nnoremap <C-b> :NERDTreeToggle<CR>
+nnoremap <C-t> :terminal<CR>
