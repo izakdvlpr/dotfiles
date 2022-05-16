@@ -145,8 +145,9 @@ SPACESHIP_CHAR_SUFFIX=" "
 # Personal Dotfiles Manager
 # ----------------------------------------
 
-# alias code="flatpak run com.visualstudio.code"
+alias vim="nvim"
 alias py="python3.10"
+alias msedge="flatpak run com.microsoft.Edge"
 
 # ----------------------------------------
 # Java
