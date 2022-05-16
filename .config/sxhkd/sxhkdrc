@@ -19,7 +19,7 @@ super + Escape
 #
 
 super + shift + n
-	msedge
+	edge
 
 super + shift + d
 	discord

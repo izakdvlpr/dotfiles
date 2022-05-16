@@ -147,7 +147,7 @@ SPACESHIP_CHAR_SUFFIX=" "
 
 alias vim="nvim"
 alias py="python3.10"
-alias msedge="flatpak run com.microsoft.Edge"
+alias edge="flatpak run com.microsoft.Edge"
 
 # ----------------------------------------
 # Java
