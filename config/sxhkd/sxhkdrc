@@ -15,11 +15,20 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 #
-# apps
+# apps hotkeys
 #
 
 super + shift + n
 	msedge
+
+super + shift + d
+	discord
+
+super + shift + s
+	spotify
+
+super + shift + c
+	code
 
 #
 # bspwm hotkeys
