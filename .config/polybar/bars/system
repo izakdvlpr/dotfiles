@@ -1,0 +1,8 @@
+[bar/system]
+inherit = bar/base
+
+width = 5%
+offset-x = 85.5%
+bottom = true
+
+modules-right = date

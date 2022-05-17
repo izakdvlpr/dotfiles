@@ -1,9 +1,9 @@
 [module/bspwm]
 type = internal/bspwm
 
-label-active = "%{T1} ●%{T-}"
+label-focused = "%{T1} ●%{T-}"
 label-occupied = "%{T1} ●%{T-}"
 label-urgent = "%{T1} ○%{T-}"
 label-empty = "%{T1} ○%{T-}"
 
-label-active-foreground = ${colors.success}
+label-focused-foreground = ${colors.success}

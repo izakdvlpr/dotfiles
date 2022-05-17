@@ -1,14 +1,18 @@
 [bar/base]
+enable-ipc = true
+
 width = 100%
-height = 4%
+height = 3.5%
 padding-left = 3
 padding-right = 3
-offset-x = 0
-offset-y = 0
+offset-y = 15
 
 fixed-center = false
 
-radius = 0.0
-pseudo-transparency = true
+font-0 = SF Pro:pixelsize=11:antialias=true:autohint=true;2
+
+radius = 0
 foreground = ${colors.foreground}
 background = ${colors.background}
+
+tray-position = none

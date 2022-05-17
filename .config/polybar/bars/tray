@@ -1,0 +1,10 @@
+[bar/tray]
+inherit = bar/base
+
+width = 7%
+offset-x = 91.5%
+bottom = true
+
+tray-position = right
+
+modules-right = powermenu

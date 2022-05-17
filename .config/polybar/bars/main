@@ -1,8 +1,0 @@
-[bar/main]
-inherit = bar/base
-
-bottom = true
-tray-position = right
-module-margin = 1
-
-modules-left = bspwm

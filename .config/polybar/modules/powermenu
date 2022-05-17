@@ -1,0 +1,6 @@
+[module/powermenu]
+type = custom/menu
+
+expand-right = true
+
+label-open = 
