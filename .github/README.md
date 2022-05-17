@@ -14,4 +14,4 @@
 - **Terminal**: *gnome terminal*
 - **Shell**: *[ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)*
 - **Bar**: *[polybar](https://github.com/polybar/polybar)*
-- **App launcher**: *[rofi](https://github.com/davatorium/rofi)*
+- **App Launcher**: *[rofi](https://github.com/davatorium/rofi)*
