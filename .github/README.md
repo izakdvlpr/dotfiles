@@ -2,6 +2,8 @@
 
 📊 My personal config.
 
+<img src="assets/desktop.png">
+
 ## Details
 
 - **Font Used**: *Fira code*
