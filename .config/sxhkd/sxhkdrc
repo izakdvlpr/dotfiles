@@ -15,11 +15,18 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 #
+# print screen
+#
+
+Print
+	flameshot gui
+
+#
 # apps hotkeys
 #
 
-super + shift + n
-	edge
+super + shift + w
+	flatpak run com.microsoft.Edge
 
 super + shift + d
 	discord
