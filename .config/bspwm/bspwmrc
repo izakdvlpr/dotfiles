@@ -21,3 +21,4 @@ bspc rule -a Screenkey manage=off
 
 feh --bg-scale ${HOME}/Pictures/wallpaper_2.png
 picom --experimental-backends &
+polybar example
