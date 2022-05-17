@@ -8,14 +8,14 @@
 
 ## Details
 
-- **Font Used**: *fira code*
-- **GTK Theme**: *[nordic](https://github.com/EliverLara/Nordic)*
-- **Icons**: *[nordic](https://github.com/EliverLara/Nordic)*
-- **OS**: *Ubuntu 22.04*
-- **WM**: *[bspwm](https://github.com/baskerville/bspwm)*
-- **Terminal**: *[kitty](https://github.com/kovidgoyal/kitty)*
-- **Terminal Theme**: *[nord-kitty](https://github.com/connorholyday/nord-kitty)*
-- **Shell**: *[ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)*
-- **Bar**: *[polybar](https://github.com/polybar/polybar)*
-- **App Launcher**: *[rofi](https://github.com/davatorium/rofi)*
-- **Browser**: Microsoft Edge
+- **Font Used**: _fira code_
+- **GTK Theme**: _[nordic](https://github.com/EliverLara/Nordic)_
+- **Icons**: _[nordic](https://github.com/EliverLara/Nordic)_
+- **OS**: _Ubuntu 22.04_
+- **WM**: _[bspwm](https://github.com/baskerville/bspwm)_
+- **Terminal**: _[kitty](https://github.com/kovidgoyal/kitty)_
+- **Terminal Theme**: _[nord-kitty](https://github.com/connorholyday/nord-kitty)_
+- **Shell**: _[ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)_
+- **Bar**: _[polybar](https://github.com/polybar/polybar)_
+- **App Launcher**: _[rofi](https://github.com/davatorium/rofi)_
+- **Browser**: _Microsoft Edge_
