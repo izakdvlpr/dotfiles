@@ -1,0 +1,6 @@
+[bar/workspaces]
+widht = 20%
+bottom = true
+tray-position = right
+
+modules-left = bspwm
