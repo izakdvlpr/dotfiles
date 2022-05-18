@@ -14,7 +14,6 @@
 - **OS**: _Ubuntu 22.04_
 - **WM**: _[bspwm](https://github.com/baskerville/bspwm)_
 - **Terminal**: _[kitty](https://github.com/kovidgoyal/kitty)_
-- **Terminal Theme**: _[nord-kitty](https://github.com/connorholyday/nord-kitty)_
 - **Shell**: _[ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)_
 - **Bar**: _[polybar](https://github.com/polybar/polybar)_
 - **App Launcher**: _[rofi](https://github.com/davatorium/rofi)_
