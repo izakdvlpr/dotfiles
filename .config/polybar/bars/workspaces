@@ -1,7 +1,7 @@
 [bar/workspaces]
 inherit = bar/base
 
-width = 12.5%
+width = 11.5%
 offset-x = 20
 bottom = true
 

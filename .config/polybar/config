@@ -2,8 +2,12 @@
 include-file = $HOME/.config/polybar/utils/colors
 include-file = $HOME/.config/polybar/bars/base
 include-file = $HOME/.config/polybar/bars/workspaces
+include-file = $HOME/.config/polybar/bars/machine
 include-file = $HOME/.config/polybar/bars/system
 include-file = $HOME/.config/polybar/bars/tray
 include-file = $HOME/.config/polybar/modules/bspwm
+include-file = $HOME/.config/polybar/modules/cpu
+include-file = $HOME/.config/polybar/modules/memory
+include-file = $HOME/.config/polybar/modules/pulseaudio
 include-file = $HOME/.config/polybar/modules/date
 include-file = $HOME/.config/polybar/modules/powermenu

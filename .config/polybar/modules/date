@@ -1,8 +1,11 @@
 [module/date]
 type = internal/date
+interval = 5
 
-interval = 1.0
+time = "%{T1}  %{T-}%H:%M"
+time-alt =
 
-date = %H:%M
-format = <label>
-label = %date%
+format-prefix-font = 1
+format-prefix-foreground = ${colors.foreground}
+
+label = %date% %time%
