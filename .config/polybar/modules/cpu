@@ -1,9 +1,14 @@
 [module/cpu]
 type = internal/cpu
-interval = 2
+interval = 1
 
-format-margin = 1
-format-prefix = "  "
-format-prefix-foreground = ${colors.foreground}
+format = <ramp-load> <label>
 
-label = %percentage%%
+ramp-load-0 = 
+ramp-load-0-foreground = ${colors.success}
+
+ramp-load-1 = 
+ramp-load-1-foreground = ${colors.warning}
+
+ramp-load-2 = 
+ramp-load-2-foreground = ${colors.urgent}

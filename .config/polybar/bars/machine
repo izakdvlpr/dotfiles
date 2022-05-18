@@ -1,8 +1,8 @@
 [bar/machine]
 inherit = bar/base
 
-width = 11%
-offset-x = 66.5%
+width = 22%
+offset-x = 54.25%
 bottom = true
 
-modules-right = cpu memory
+modules-right = temperature memory cpu
