@@ -1,0 +1,63 @@
+ 
+New instance of bashtop version: 0.9.25 Pid: 18360
+ 
+New instance of bashtop version: 0.9.25 Pid: 27105
+ 
+New instance of bashtop version: 0.9.25 Pid: 22039
+stty: 'standard input': Input/output error
+ 
+New instance of bashtop version: 0.9.25 Pid: 6492
+ 
+New instance of bashtop version: 0.9.25 Pid: 14198
+ 
+New instance of bashtop version: 0.9.25 Pid: 46818
+ 
+New instance of bashtop version: 0.9.25 Pid: 332688
+/usr/bin/bashtop: line 4806: ${pycoproc[1]}: ambiguous redirect
+ 
+New instance of bashtop version: 0.9.25 Pid: 534111
+PSUTIL ERROR! Command: get_net('usb0')
+'usb0'
+15:35:04 ERROR: On line 4634 
+ 
+New instance of bashtop version: 0.9.25 Pid: 738509
+ 
+New instance of bashtop version: 0.9.25 Pid: 891744
+ 
+New instance of bashtop version: 0.9.25 Pid: 1071589
+ 
+New instance of bashtop version: 0.9.25 Pid: 1078301
+Traceback (most recent call last):
+  File "/tmp/XGg5rf2SwqU2/bashtop.psutil", line 395, in <module>
+    exec(command)
+  File "<string>", line 1, in <module>
+  File "/tmp/XGg5rf2SwqU2/bashtop.psutil", line 224, in get_proc
+    for p in sorted(psutil.process_iter(['pid', 'name', 'cmdline', 'num_threads', 'username', 'memory_percent', 'cpu_percent', 'cpu_times', 'create_time'], err), key=lambda p: eval(sort_cmd), reverse=reverse):
+  File "/usr/lib/python3/dist-packages/psutil/__init__.py", line 1450, in process_iter
+    proc.info = proc.as_dict(
+  File "/usr/lib/python3/dist-packages/psutil/__init__.py", line 531, in as_dict
+    ret = meth()
+  File "/usr/lib/python3/dist-packages/psutil/__init__.py", line 1001, in cpu_percent
+    st2 = timer()
+  File "/usr/lib/python3/dist-packages/psutil/__init__.py", line 990, in timer
+    return _timer() * num_cpus
+KeyboardInterrupt
+/usr/bin/bashtop: line 4806: ${pycoproc[1]}: ambiguous redirect
+ 
+New instance of bashtop version: 0.9.25 Pid: 1115577
+ 
+New instance of bashtop version: 0.9.25 Pid: 7882
+ 
+New instance of bashtop version: 0.9.25 Pid: 111034
+ 
+New instance of bashtop version: 0.9.25 Pid: 177879
+ 
+New instance of bashtop version: 0.9.25 Pid: 191833
+ 
+New instance of bashtop version: 0.9.25 Pid: 44366
+ 
+New instance of bashtop version: 0.9.25 Pid: 59044
+ 
+New instance of bashtop version: 0.9.25 Pid: 62766
+ 
+New instance of bashtop version: 0.9.25 Pid: 74243
