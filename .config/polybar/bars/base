@@ -19,6 +19,8 @@ font-2 = Font Awesome 5 Free:pixelsize=11:style=Regular
 font-3 = Font Awesome 5 Free Brands:pixelsize=11:style=Regular
 font-4 = Font Awesome 5 Free Solid:pixelsize=11:style=Regular
 
+border-color = ${colors.nord2}
+border-size = 3
 radius = 0
 foreground = ${colors.foreground}
 background = ${colors.background}
