@@ -132,10 +132,13 @@ SPACESHIP_CHAR_SYMBOL="❯"
 SPACESHIP_CHAR_SUFFIX=" "
 
 # ----------------------------------------
-# Personal Dotfiles Manager
+# Alias
 # ----------------------------------------
 
+alias ls="exa --icons"
+alias ..="cd .."
 alias vim="nvim"
+alias v="nvim"
 alias py="python3.10"
 alias edge="flatpak run com.microsoft.Edge"
 alias pipes="$HOME/.local/share/pipes/pipes.sh" 
