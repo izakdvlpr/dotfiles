@@ -1,7 +1,7 @@
 {
   // Startup
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Nordico",
+  "workbench.colorTheme": "Nord",
   "workbench.iconTheme": "material-icon-theme",
 
   // General settings
@@ -195,10 +195,12 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.rulers": [80],
+    "editor.tabSize": 2,
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
-  }
+  },
+  "dart.closingLabels": false
 }
