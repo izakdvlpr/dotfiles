@@ -144,6 +144,7 @@ alias edge="flatpak run com.microsoft.Edge"
 alias pipes="$HOME/.local/share/pipes/pipes.sh" 
 alias colors="$HOME/.local/share/colors.sh"
 alias pacman="$HOME/.local/share/pacman.sh"
+alias eww="$HOME/compilers/eww/target/release/eww"
 
 # ----------------------------------------
 # Java

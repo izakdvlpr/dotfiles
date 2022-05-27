@@ -1,8 +1,0 @@
-[bar/system]
-inherit = bar/base
-
-width = 12%
-offset-x = 78%
-bottom = true
-
-modules-right = pulseaudio date
