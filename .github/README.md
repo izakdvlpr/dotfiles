@@ -4,8 +4,6 @@
 
 ## Showcase
 
-<img src="assets/desktop.png">
-
 |edge|bashtop, cbonsai, tty-clock, cmatrix, cava|
 |-|-|
 |<img height="210px" src="assets/edge.png">|<img height="210px" src="assets/desktop.png">|
