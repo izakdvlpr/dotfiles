@@ -16,11 +16,12 @@ bspc config gapless_monocle      true
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='^2'
 bspc rule -a steam state=floating
+bspc rule -a emulator state=floating
 bspc rule -a Lutris state=floating
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-feh --bg-scale ${HOME}/Pictures/wallpaper_1.png
+feh --bg-scale ${HOME}/Pictures/wallpaper_3.jpg
 picom --experimental-backends &
 $HOME/.config/polybar/launch.sh
