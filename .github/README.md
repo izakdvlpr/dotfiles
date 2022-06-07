@@ -6,6 +6,14 @@
 
 <img src="assets/desktop.png">
 
+|edge|bashtop, cbonsai, tty-clock, cmatrix, cava|
+|-|-|
+|<img height="210px" src="assets/edge.png">|<img height="210px" src="assets/desktop.png">|
+
+|vscode|discord|
+|-|-|
+|<img height="210px" src="assets/vscode.png">|<img height="210px" src="assets/discord.png">|
+
 ## Details
 
 - **Font Used**: _fira code_
