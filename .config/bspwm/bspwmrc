@@ -22,6 +22,6 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-feh --bg-scale ${HOME}/Pictures/wallpaper_3.jpg
+feh --bg-scale $HOME/.config/bspwm/wallpapers/wallpaper_3.jpg
 picom --experimental-backends &
 $HOME/.config/polybar/launch.sh
