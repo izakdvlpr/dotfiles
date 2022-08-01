@@ -2,13 +2,14 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="spaceship"
+ZSH_THEME="fox"
+# duellj
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -70,7 +71,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker docker-compose)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -100,6 +101,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+source /usr/share/nvm/init-nvm.sh
+
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
@@ -112,75 +117,18 @@ fi
 source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
-
 ### End of Zinit's installer chunk
 
 zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 
-# ----------------------------------------
-# ZSH - Appearance & Theme Options
-# ----------------------------------------
+alias code="code-insiders"
+[[ "$TERM" == "xterm-kitty" ]] && alias ssh="kitty +kitten ssh"
 
-SPACESHIP_PROMPT_ORDER=(user dir host git hg exec_time line_sep vi_mode jobs exit_code char)
-SPACESHIP_PROMPT_ADD_NEWLINE=false
-
-SPACESHIP_USER_SHOW=always
-
-SPACESHIP_CHAR_SYMBOL="❯"
-SPACESHIP_CHAR_SUFFIX=" "
-
-# ----------------------------------------
-# Alias
-# ----------------------------------------
-
-alias ls="exa --icons"
-alias ..="cd .."
-alias vim="nvim"
-alias v="nvim"
-alias py="python3.10"
-alias edge="flatpak run com.microsoft.Edge"
-alias stripe="$HOME/.local/share/stripe"
-alias pipes="$HOME/.local/share/pipes/pipes.sh" 
-alias colors="$HOME/.local/share/colors.sh"
-alias pacman="$HOME/.local/share/pacman.sh"
-alias eww="$HOME/compilers/eww/target/release/eww"
-
-# ----------------------------------------
-# Java
-# ----------------------------------------
-
-export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
 export ANDROID_HOME=~/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-
-# ----------------------------------------
-# Node Version Manager
-# ----------------------------------------
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# ----------------------------------------
-# Spicetify
-# ----------------------------------------
-
-export PATH="$PATH:$HOME/.spicetify"
-
-# ----------------------------------------
-# Android Studio
-# ----------------------------------------
-
-export PATH="$PATH:$HOME/android-studio/bin"
-
-# ----------------------------------------
-# Flutter
-# ----------------------------------------
-
-export PATH="$PATH:$HOME/flutter/bin"
