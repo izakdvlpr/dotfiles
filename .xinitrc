@@ -50,5 +50,6 @@ fi
 
 export _JAVA_AWT_WM_NONREPARENTING=1
 
+xsetroot -cursor_name left_ptr &
 setxkbmap -model abnt2 -layout br &
 exec bspwm
