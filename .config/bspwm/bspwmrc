@@ -23,3 +23,5 @@ bspc rule -a Screenkey manage=off
 nitrogen --set-zoom-fill --random $HOME/.wallpapers --save
 picom &
 $HOME/.config/polybar/launch.sh
+spotify-listener &
+disown
