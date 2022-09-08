@@ -4,9 +4,9 @@
 
 export ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="fox"
+ZSH_THEME="agnoster"
 
-plugins=(git)
+plugins=(git docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -16,7 +16,6 @@ source $ZSH/oh-my-zsh.sh
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-source /usr/share/nvm/init-nvm.sh
 
 # ----------------------------------------
 # zinit
@@ -37,12 +36,6 @@ autoload -Uz _zinit
 zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
-
-# ----------------------------------------
-# aliases
-# ----------------------------------------
-
-alias code="code-insiders"
 
 # ----------------------------------------
 # kitty

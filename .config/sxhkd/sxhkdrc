@@ -35,7 +35,7 @@ super + shift + s
 	spotify
 
 super + shift + c
-	code-insiders
+	code
 
 #
 # bspwm hotkeys
