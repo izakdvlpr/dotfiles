@@ -14,6 +14,13 @@ bspc config split_ratio 0.52
 bspc config borderless_monocle true
 bspc config gapless_monocle true
 
+bspc rule -a chromium desktop=^1 focus=on state=tiled follow=on
+bspc rule -a microsoft-edge-stable desktop=^1 focus=on state=tiled follow=on
+bspc rule -a code desktop=^2 focus=on state=tiled follow=on
+bspc rule -a discord desktop=^3 focus=on state=tiled follow=on
+bspc rule -a spotify desktop=^4 focus=on state=tiled follow=on
+bspc rule -a Nemo desktop=^5 state=tiled follow=on
+
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating

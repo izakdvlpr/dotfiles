@@ -11,6 +11,13 @@ plugins=(git docker docker-compose)
 source $ZSH/oh-my-zsh.sh
 
 # ----------------------------------------
+# alias
+# ----------------------------------------
+
+alias ls="exa --icons"
+alias code="code-insiders"
+
+# ----------------------------------------
 # nvm
 # ----------------------------------------
 
@@ -59,3 +66,9 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 # ----------------------------------------
 
 export PATH="$PATH:$HOME/flutter/bin"
+
+# ----------------------------------------
+# go
+# ----------------------------------------
+
+export PATH=$(go env GOPATH)/bin:$PATH
