@@ -16,6 +16,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias ls="exa --icons"
 alias code="code-insiders"
+alias lvim="/home/izakdvlpr/.local/bin/lvim"
 
 # ----------------------------------------
 # nvm
