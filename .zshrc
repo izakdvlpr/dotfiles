@@ -19,6 +19,12 @@ alias code="code-insiders"
 alias lvim="/home/izakdvlpr/.local/bin/lvim"
 
 # ----------------------------------------
+# color scripts
+# ----------------------------------------
+
+export PATH="$PATH:$HOME/.local/share/color-scripts"
+
+# ----------------------------------------
 # nvm
 # ----------------------------------------
 
