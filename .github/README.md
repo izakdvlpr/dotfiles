@@ -1,3 +1,3 @@
 # dotfiles
 
-📊 My personal config.
+My personal config.
