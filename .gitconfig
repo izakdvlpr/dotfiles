@@ -22,7 +22,7 @@
   unstage = reset HEAD --
   undo = checkout --
   rollback = reset --soft HEAD~1
-[pull]
-  rebase = true
-[core]
-  autocrlf = false
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
