@@ -1,6 +1,7 @@
 [user]
   name = izakdvlpr
   email = izakdvlpr@gmail.com
+  signingkey = EF1B0F3DC08CA1CA
 [credential "https://github.com"]
   helper = !gh auth git-credential
 [alias]
@@ -26,3 +27,5 @@
 	gpgsign = true
 [tag]
 	gpgSign = true
+[pull]
+	rebase = false
