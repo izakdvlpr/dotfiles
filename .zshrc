@@ -46,31 +46,29 @@ export NVM_DIR="$HOME/.nvm"
 
 eval "$(ssh-agent -s)" && ssh-add ~/.ssh/work
 
-# ----------------------------------------
-# kitty
-# ----------------------------------------
-
-[[ "$TERM" == "xterm-kitty" ]] && alias ssh="kitty +kitten ssh"
-
-# ----------------------------------------
-# android sdk
-# ----------------------------------------
-
-export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
-export ANDROID_HOME=~/Android/Sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
+alias ssh-add-work="ssh-add ~/.ssh/work"
+alias ssh-add-personal="ssh-add ~/.ssh/personal"
 
 # ----------------------------------------
 # flutter
 # ----------------------------------------
 
-export PATH="$PATH:$HOME/flutter/bin"
+export PATH=$HOME/development/flutter/bin:$PATH
 
 # ----------------------------------------
-# go
+# ruby
 # ----------------------------------------
 
-export PATH=$(go env GOPATH)/bin:$PATH
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export PATH="$HOME/.gem/ruby/3.4.0/bin:$PATH"
+
+# ----------------------------------------
+# android sdk
+# ----------------------------------------
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
